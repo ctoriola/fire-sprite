@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 900">
+  <defs>
+    <radialGradient id="skin" cx="50%" cy="38%" r="62%">
+      <stop offset="0" stop-color="#b7431c"/>
+      <stop offset=".55" stop-color="#6e1a0a"/>
+      <stop offset="1" stop-color="#2a0603"/>
+    </radialGradient>
+    <linearGradient id="rimL" x1="0" x2="1">
+      <stop offset="0" stop-color="#ffb070" stop-opacity=".95"/>
+      <stop offset=".35" stop-color="#ff6a24" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="hair" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3a0905"/>
+      <stop offset=".6" stop-color="#1c0402"/>
+      <stop offset="1" stop-color="#120201"/>
+    </linearGradient>
+    <linearGradient id="hairShine" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ff8a3d" stop-opacity=".75"/>
+      <stop offset=".4" stop-color="#ff5a1f" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="body" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5a1206"/>
+      <stop offset="1" stop-color="#1a0302"/>
+    </linearGradient>
+    <linearGradient id="lens" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fff1c9"/>
+      <stop offset=".3" stop-color="#ffb347"/>
+      <stop offset=".65" stop-color="#ff5a1f"/>
+      <stop offset="1" stop-color="#8c1405"/>
+    </linearGradient>
+    <pattern id="stripes" width="16" height="16" patternUnits="userSpaceOnUse" patternTransform="rotate(-28)">
+      <rect width="16" height="7" fill="#fff4d6" opacity=".85"/>
+    </pattern>
+    <linearGradient id="haloG" x1="0" x2="1">
+      <stop offset="0" stop-color="#ffd27a"/>
+      <stop offset=".5" stop-color="#fff6de"/>
+      <stop offset="1" stop-color="#ff7a2e"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="14"/>
+    </filter>
+    <filter id="soft" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4"/>
+    </filter>
+    <clipPath id="lensL"><circle cx="338" cy="382" r="52"/></clipPath>
+    <clipPath id="lensR"><circle cx="470" cy="382" r="52"/></clipPath>
+  </defs>
+
+  <!-- halo, back half -->
+  <g transform="rotate(-8 400 190)">
+    <ellipse cx="400" cy="190" rx="190" ry="46" fill="none" stroke="#ff9a3c" stroke-width="22" filter="url(#glow)" opacity=".9"/>
+    <path d="M210 190a190 46 0 0 1 380 0" fill="none" stroke="url(#haloG)" stroke-width="9" stroke-linecap="round"/>
+  </g>
+
+  <!-- shoulders / turtleneck -->
+  <path d="M120 900c10-120 70-190 190-215 40-8 62-30 68-62h44c6 32 28 54 68 62 120 25 180 95 190 215z" fill="url(#body)"/>
+  <path d="M120 900c10-120 70-190 190-215 40-8 62-30 68-62" fill="none" stroke="#ff8a3d" stroke-width="3" opacity=".55"/>
+  <g stroke="#7a1a0a" stroke-width="2" opacity=".55" fill="none">
+    <path d="M300 700c60 18 140 18 200 0"/><path d="M290 730c70 20 150 20 220 0"/><path d="M285 762c72 20 158 20 230 0"/>
+  </g>
+  <!-- neck -->
+  <path d="M352 540h96l10 105c-30 22-86 22-116 0z" fill="#4a0e05"/>
+  <path d="M340 628c38 30 82 30 120 0l14 44c-50 34-98 34-148 0z" fill="#6b1608"/>
+
+  <!-- face -->
+  <path d="M400 222c-92 0-146 70-146 170 0 110 58 196 146 196s146-86 146-196c0-100-54-170-146-170z" fill="url(#skin)"/>
+  <path d="M400 222c-92 0-146 70-146 170 0 110 58 196 146 196" fill="url(#rimL)" opacity=".7"/>
+  <!-- nose + lips -->
+  <path d="M404 420c6 26 14 44 4 54-8 6-20 4-24 0" fill="none" stroke="#2c0603" stroke-width="4" stroke-linecap="round" opacity=".6"/>
+  <path d="M362 506c22-12 30-8 38-4 8-4 16-8 38 4-14 20-62 20-76 0z" fill="#d11f12"/>
+  <path d="M366 507c20 6 48 6 68 0" stroke="#5a0703" stroke-width="3" fill="none"/>
+  <path d="M380 516c12 4 28 4 40 0" stroke="#ff8a6a" stroke-width="3" fill="none" opacity=".6" stroke-linecap="round"/>
+
+  <!-- hair: a heavy fringe bob, with two small horns tucked into it -->
+  <path d="M252 320c-20 120-20 250-54 320 60 10 96-30 104-90-26-60-30-150-10-220z" fill="url(#hair)"/>
+  <path d="M548 320c20 120 20 250 54 320-60 10-96-30-104-90 26-60 30-150 10-220z" fill="url(#hair)"/>
+  <path d="M312 176l-18-54c-4-12 10-18 16-8l30 50z" fill="#1c0402"/>
+  <path d="M488 176l18-54c4-12-10-18-16-8l-30 50z" fill="#1c0402"/>
+  <path d="M296 128l10 30" stroke="#ff8a3d" stroke-width="3" opacity=".6" stroke-linecap="round"/>
+  <path d="M400 150c-120 0-180 80-176 200 30-40 64-58 96-62 20 28 60 42 80 42 30 0 70-14 90-42 34 4 68 24 96 62 4-120-56-200-186-200z" fill="url(#hair)"/>
+  <path d="M400 150c-120 0-180 80-176 200 30-40 64-58 96-62" fill="none" stroke="url(#hairShine)" stroke-width="10"/>
+  <g stroke="#ff7a2e" stroke-width="2" fill="none" opacity=".35">
+    <path d="M300 200c-30 30-50 70-56 120"/><path d="M360 170c-20 40-30 80-24 120"/><path d="M450 172c20 36 26 80 18 116"/><path d="M510 200c28 30 44 70 50 120"/>
+  </g>
+
+  <!-- glasses -->
+  <g>
+    <circle cx="338" cy="382" r="62" fill="#ff7a2e" filter="url(#glow)" opacity=".7"/>
+    <circle cx="470" cy="382" r="62" fill="#ff7a2e" filter="url(#glow)" opacity=".7"/>
+    <circle cx="338" cy="382" r="52" fill="url(#lens)"/>
+    <circle cx="470" cy="382" r="52" fill="url(#lens)"/>
+    <rect x="280" y="324" width="120" height="120" fill="url(#stripes)" clip-path="url(#lensL)" opacity=".75"/>
+    <rect x="412" y="324" width="120" height="120" fill="url(#stripes)" clip-path="url(#lensR)" opacity=".75"/>
+    <circle cx="338" cy="382" r="52" fill="none" stroke="#ffd9a0" stroke-width="5"/>
+    <circle cx="470" cy="382" r="52" fill="none" stroke="#ffd9a0" stroke-width="5"/>
+    <path d="M390 372c8-8 20-8 28 0" fill="none" stroke="#ffd9a0" stroke-width="5"/>
+    <path d="M286 372l-34-8M522 372l34-8" stroke="#ffd9a0" stroke-width="5" stroke-linecap="round"/>
+  </g>
+
+  <!-- halo, front half -->
+  <g transform="rotate(-8 400 190)">
+    <path d="M590 190a190 46 0 0 1-380 0" fill="none" stroke="#ffb35c" stroke-width="26" filter="url(#glow)" opacity=".85"/>
+    <path d="M590 190a190 46 0 0 1-380 0" fill="none" stroke="url(#haloG)" stroke-width="10" stroke-linecap="round"/>
+    <path d="M560 208a190 46 0 0 1-120 26" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" opacity=".9"/>
+  </g>
+</svg>

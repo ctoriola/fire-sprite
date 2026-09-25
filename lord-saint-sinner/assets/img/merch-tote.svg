@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 700">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="45%" r="70%"><stop offset="0" stop-color="#ffe1c2"/><stop offset="1" stop-color="#ff7a2e"/></radialGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%"><feDropShadow dx="0" dy="24" stdDeviation="22" flood-color="#000" flood-opacity=".35"/></filter>
+  </defs>
+  <rect width="600" height="700" fill="url(#bg)"/>
+  <g filter="url(#shadow)">
+    <path d="M230 250v-60a70 70 0 0 1 140 0v60" fill="none" stroke="#fff8ef" stroke-width="18"/>
+    <path d="M160 250h280l20 340H140z" fill="#fff8ef"/>
+    <text x="300" y="400" text-anchor="middle" font-family="Impact, 'Arial Narrow', sans-serif" font-size="52" fill="#b3120b">SAINT</text>
+    <text x="300" y="456" text-anchor="middle" font-family="Impact, 'Arial Narrow', sans-serif" font-size="30" fill="#b3120b" opacity=".6">ON SUNDAYS</text></g>
+</svg>

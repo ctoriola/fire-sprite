@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 700">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="45%" r="70%"><stop offset="0" stop-color="#ffb070"/><stop offset="1" stop-color="#b3120b"/></radialGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%"><feDropShadow dx="0" dy="24" stdDeviation="22" flood-color="#000" flood-opacity=".35"/></filter>
+  </defs>
+  <rect width="600" height="700" fill="url(#bg)"/>
+  <g filter="url(#shadow)">
+    <rect x="100" y="150" width="360" height="360" rx="6" fill="#140302"/>
+    <circle cx="340" cy="330" r="180" fill="#0b0101"/>
+    <g fill="none" stroke="#3a1a14" stroke-width="2">
+      <circle cx="340" cy="330" r="160"/><circle cx="340" cy="330" r="140"/><circle cx="340" cy="330" r="120"/><circle cx="340" cy="330" r="100"/>
+    </g>
+    <circle cx="340" cy="330" r="62" fill="#ffcf73"/>
+    <circle cx="340" cy="330" r="8" fill="#0b0101"/>
+    <rect x="100" y="150" width="200" height="360" fill="#ffcf73" opacity=".9"/>
+    <path d="M140 400l-10-110 50 50 30-80 30 80 50-50-10 110z" fill="#140302" opacity=".8" transform="translate(-30 0) scale(.9)"/></g>
+</svg>

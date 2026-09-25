@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 700">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="45%" r="70%"><stop offset="0" stop-color="#3a0a05"/><stop offset="1" stop-color="#070101"/></radialGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%"><feDropShadow dx="0" dy="24" stdDeviation="22" flood-color="#000" flood-opacity=".35"/></filter>
+  </defs>
+  <rect width="600" height="700" fill="url(#bg)"/>
+  <g filter="url(#shadow)">
+    <g><circle cx="450.0" cy="290.0" r="11" fill="#ffcf73"/><circle cx="442.65890691115715" cy="339.4413091970641" r="11" fill="#ffcf73"/><circle cx="421.3541829478161" cy="384.0432416841294" r="11" fill="#ffcf73"/><circle cx="388.17116093460334" cy="419.4401049501315" r="11" fill="#ffcf73"/><circle cx="346.357836252427" cy="442.16721008455363" r="11" fill="#ffcf73"/><circle cx="300.00694901923197" cy="449.9999998283063" r="11" fill="#ffcf73"/><circle cx="253.6553816074096" cy="442.17179099933315" r="11" fill="#ffcf73"/><circle cx="211.8400829660792" cy="419.44881839406617" r="11" fill="#ffcf73"/><circle cx="178.65398642675774" cy="384.05523477451186" r="11" fill="#ffcf73"/><circle cx="157.34538830878512" cy="339.4554080353222" r="11" fill="#ffcf73"/><circle cx="150.00000064385156" cy="290.01482457434565" r="11" fill="#ffcf73"/><circle cx="157.3367990935827" cy="240.5727900656322" r="11" fill="#ffcf73"/><circle cx="178.63764871939776" cy="195.96875221358505" r="11" fill="#ffcf73"/><circle cx="211.81759592163613" cy="160.56860960500606" r="11" fill="#ffcf73"/><circle cx="253.62894628570405" cy="137.8373721365339" r="11" fill="#ffcf73"/><circle cx="299.97915294236367" cy="130.00000154524378" r="11" fill="#ffcf73"/><circle cx="346.33140013489987" cy="137.82362939223464" r="11" fill="#ffcf73"/><circle cx="388.14867237641295" cy="160.54246927327682" r="11" fill="#ffcf73"/><circle cx="421.33784315695067" cy="195.93277294254037" r="11" fill="#ffcf73"/><circle cx="442.6503152466273" cy="240.53049355097892" r="11" fill="#ffcf73"/></g>
+    <path d="M300 450v60" stroke="#ffcf73" stroke-width="4"/>
+    <path d="M300 510v130M260 560h80" stroke="#ffcf73" stroke-width="16" stroke-linecap="round"/></g>
+</svg>

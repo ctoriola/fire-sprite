@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 700">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="45%" r="70%"><stop offset="0" stop-color="#ff8a3d"/><stop offset="1" stop-color="#5a0707"/></radialGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%"><feDropShadow dx="0" dy="24" stdDeviation="22" flood-color="#000" flood-opacity=".35"/></filter>
+  </defs>
+  <rect width="600" height="700" fill="url(#bg)"/>
+  <g filter="url(#shadow)">
+    <path d="M200 290h200v280a20 20 0 0 1-20 20H220a20 20 0 0 1-20-20z" fill="#140302"/>
+    <rect x="200" y="360" width="200" height="140" fill="#ff5a1f"/>
+    <text x="300" y="420" text-anchor="middle" font-family="Impact, 'Arial Narrow', sans-serif" font-size="34" fill="#140302">SINNER</text>
+    <text x="300" y="460" text-anchor="middle" font-family="Georgia, serif" font-style="italic" font-size="20" fill="#140302">smoke &amp; fig</text>
+    <path d="M300 280v-30" stroke="#fff3d6" stroke-width="4"/>
+    <path d="M300 160c14 34 30 52 30 76a30 30 0 0 1-60 0c0-24 16-42 30-76z" fill="#ffcf73"/></g>
+</svg>

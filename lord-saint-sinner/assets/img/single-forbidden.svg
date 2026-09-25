@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="42%" r="75%">
+      <stop offset="0" stop-color="#ffb070"/><stop offset="1" stop-color="#b3120b"/>
+    </radialGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="18"/></filter>
+    <filter id="grain" x="0" y="0" width="100%" height="100%"><feTurbulence type="fractalNoise" baseFrequency=".9" numOctaves="2" stitchTiles="stitch"/><feColorMatrix values="0 0 0 0 1  0 0 0 0 1  0 0 0 0 1  0 0 0 .08 0"/></filter>
+  </defs>
+  <rect width="600" height="600" fill="url(#bg)"/>
+  <circle cx="300" cy="270" r="170" fill="#fff3d6" opacity=".35" filter="url(#glow)"/>
+  
+  <path d="M300 200c-40-30-150-30-160 90-8 110 70 210 120 200 20-4 30-12 40-12s20 8 40 12c50 10 128-90 120-200-10-120-120-120-160-90z" fill="#d11f12"/>
+  <path d="M430 260a44 44 0 1 0 0 88 60 60 0 0 1 0-88z" fill="#2a0603"/>
+  <path d="M300 200c0-40 10-70 40-90" stroke="#140302" stroke-width="10" fill="none" stroke-linecap="round"/>
+  <path d="M310 150c30-30 80-30 100-10-30 20-70 20-100 10z" fill="#ffcf73"/>
+  <path d="M200 280c0-40 20-60 50-60" stroke="#ff8a6a" stroke-width="10" fill="none" stroke-linecap="round" opacity=".6"/>
+
+  <rect width="600" height="600" filter="url(#grain)"/>
+</svg>
