@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 700">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="45%" r="70%"><stop offset="0" stop-color="#b3120b"/><stop offset="1" stop-color="#2a0603"/></radialGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%"><feDropShadow dx="0" dy="24" stdDeviation="22" flood-color="#000" flood-opacity=".35"/></filter>
+  </defs>
+  <rect width="600" height="700" fill="url(#bg)"/>
+  <g filter="url(#shadow)">
+    <path d="M300 110c-60 0-100 40-104 90l-106 50 40 280 50-10v90h240v-90l50 10 40-280-106-50c-4-50-44-90-104-90z" fill="#ff5a1f"/>
+    <path d="M230 210c0-50 30-76 70-76s70 26 70 76c-20 26-46 40-70 40s-50-14-70-40z" fill="#000" opacity=".25"/>
+    <path d="M280 250v70M320 250v70" stroke="#140302" stroke-width="5" stroke-linecap="round" opacity=".6"/>
+    <rect x="230" y="470" width="140" height="70" rx="10" fill="#000" opacity=".15"/>
+    <text x="300" y="410" text-anchor="middle" font-family="Impact, 'Arial Narrow', sans-serif" font-size="46" fill="#140302" letter-spacing="2">L,S,S</text></g>
+</svg>

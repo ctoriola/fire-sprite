@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="42%" r="75%">
+      <stop offset="0" stop-color="#b3120b"/><stop offset="1" stop-color="#2a0603"/>
+    </radialGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="18"/></filter>
+    <filter id="grain" x="0" y="0" width="100%" height="100%"><feTurbulence type="fractalNoise" baseFrequency=".9" numOctaves="2" stitchTiles="stitch"/><feColorMatrix values="0 0 0 0 1  0 0 0 0 1  0 0 0 0 1  0 0 0 .08 0"/></filter>
+  </defs>
+  <rect width="600" height="600" fill="url(#bg)"/>
+  <circle cx="300" cy="270" r="170" fill="#ffb347" opacity=".35" filter="url(#glow)"/>
+  
+  <path d="M300 110c20 80 110 120 110 230a110 110 0 0 1-220 0c0-60 40-90 50-150 20 30 30 60 26 90 30-40 44-100 34-170z" fill="#ffcf73"/>
+  <path d="M300 250c10 40 60 60 60 120a60 60 0 0 1-120 0c0-30 20-50 26-80 10 14 16 30 14 46 16-22 24-52 20-86z" fill="#ff5a1f"/>
+  <path d="M120 500h360" stroke="#ffcf73" stroke-width="3"/>
+
+  <rect width="600" height="600" filter="url(#grain)"/>
+</svg>
