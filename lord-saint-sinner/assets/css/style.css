@@ -495,6 +495,7 @@ a.card-white:hover { transform: translateY(-4px); box-shadow: 0 30px 60px -24px 
 .section-cream .show .date small, .section-cream .show .venue { color: #7a6a66; }
 .section-cream .show:hover { background: #fff; }
 .section-cream .chip { border-color: #d9c6be; }
+.section-cream .chip-gold { color: #9a4f00; border-color: #e3b96f; }
 
 /* ---------- Video ---------- */
 
